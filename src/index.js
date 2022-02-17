@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './index.css';
 
 // MSAL imports
 import { PublicClientApplication } from "@azure/msal-browser";
