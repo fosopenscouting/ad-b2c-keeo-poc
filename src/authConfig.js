@@ -4,8 +4,8 @@ export const msalConfig = {
         clientId: "6f186fd0-df74-4e84-b243-8a4c95bf3127",
         authority: "https://fosopenscoutingvzwb2c.b2clogin.com/fosopenscoutingvzwb2c.onmicrosoft.com/B2C_1_SignIn_Signup",
         knownAuthorities: ["fosopenscoutingvzwb2c.b2clogin.com"],
-        redirectUri: "http://localhost:4200",
-        postLogoutRedirectUri: "http://localhost:4200"
+        redirectUri: window.location.origin,
+        postLogoutRedirectUri: window.location.origin
     }
 };
 
